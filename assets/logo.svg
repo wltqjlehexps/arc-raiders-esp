@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0b0f0c"/>
+  
+  <!-- worn industrial texture -->
+  <path d="M0 0 L256 0 L256 256 L0 256 Z" fill="none" stroke="#1a2218" stroke-width="1"/>
+  <path d="M0 32 L256 32 M0 64 L256 64 M0 96 L256 96 M0 128 L256 128 M0 160 L256 160 M0 192 L256 192 M0 224 L256 224" stroke="#141a12" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- fractured radar sweep arc - outer broken ring -->
+  <g>
+    <!-- outer ring segments (fractured) -->
+    <path d="M 128 20 A 108 108 0 0 1 219 68" stroke="#c8d6c0" stroke-width="3" fill="none" opacity="0.9"/>
+    <path d="M 229 86 A 108 108 0 0 1 236 128" stroke="#7dffb0" stroke-width="3" fill="none" opacity="0.85"/>
+    <path d="M 236 140 A 108 108 0 0 1 214 197" stroke="#c8d6c0" stroke-width="3" fill="none" opacity="0.9"/>
+    <path d="M 200 208 A 108 108 0 0 1 148 234" stroke="#7dffb0" stroke-width="3" fill="none" opacity="0.85"/>
+    <path d="M 132 236 A 108 108 0 0 1 78 228" stroke="#c8d6c0" stroke-width="3" fill="none" opacity="0.9"/>
+    <path d="M 62 218 A 108 108 0 0 1 24 174" stroke="#7dffb0" stroke-width="3" fill="none" opacity="0.85"/>
+    <path d="M 18 158 A 108 108 0 0 1 22 112" stroke="#c8d6c0" stroke-width="3" fill="none" opacity="0.9"/>
+    <path d="M 28 96 A 108 108 0 0 1 58 52" stroke="#7dffb0" stroke-width="3" fill="none" opacity="0.85"/>
+    <path d="M 72 40 A 108 108 0 0 1 110 24" stroke="#ff5a1f" stroke-width="3" fill="none" opacity="0.9"/>
+  </g>
+  
+  <!-- inner fragmented arc segments -->
+  <g opacity="0.7">
+    <path d="M 128 48 A 80 80 0 0 1 195 82" stroke="#c8d6c0" stroke-width="2" fill="none"/>
+    <path d="M 204 98 A 80 80 0 0 1 208 128" stroke="#7dffb0" stroke-width="2" fill="none"/>
+    <path d="M 208 138 A 80 80 0 0 1 188 183" stroke="#c8d6c0" stroke-width="2" fill="none"/>
+    <path d="M 176 194 A 80 80 0 0 1 144 206" stroke="#7dffb0" stroke-width="2" fill="none"/>
+    <path d="M 132 208 A 80 80 0 0 1 92 198" stroke="#c8d6c0" stroke-width="2" fill="none"/>
+    <path d="M 76 186 A 80 80 0 0 1 52 152" stroke="#7dffb0" stroke-width="2" fill="none"/>
+    <path d="M 48 140 A 80 80 0 0 1 52 108" stroke="#c8d6c0" stroke-width="2" fill="none"/>
+    <path d="M 58 94 A 80 80 0 0 1 82 66" stroke="#7dffb0" stroke-width="2" fill="none"/>
+    <path d="M 96 56 A 80 80 0 0 1 120 50" stroke="#ff5a1f" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- radar sweep line from center going up-right with phosphor glow -->
+  <path d="M 128 128 L 198 58" stroke="#7dffb0" stroke-width="2" opacity="0.6"/>
+  <path d="M 128 128 L 198 58" stroke="#7dffb0" stroke-width="6" opacity="0.15"/>
+  
+  <!-- sweep trail arcs -->
+  <path d="M 128 128 L 188 68" stroke="#7dffb0" stroke-width="1" opacity="0.3"/>
+  <path d="M 128 128 L 178 78" stroke="#7dffb0" stroke-width="1" opacity="0.2"/>
+  <path d="M 128 128 L 168 88" stroke="#7dffb0" stroke-width="1" opacity="0.1"/>
+  
+  <!-- central crosshair pupil -->
+  <circle cx="128" cy="128" r="18" fill="none" stroke="#ff5a1f" stroke-width="2.5"/>
+  <circle cx="128" cy="128" r="10" fill="none" stroke="#c8d6c0" stroke-width="1.5"/>
+  <circle cx="128" cy="128" r="4" fill="#ff5a1f"/>
+  
+  <!-- crosshair lines -->
+  <path d="M 128 100 L 128 116 M 128 140 L 128 156" stroke="#ff5a1f" stroke-width="2"/>
+  <path d="M 100 128 L 116 128 M 140 128 L 156 128" stroke="#ff5a1f" stroke-width="2"/>
+  
+  <!-- corner crosshair ticks -->
+  <path d="M 108 108 L 114 114 M 148 108 L 142 114 M 108 148 L 114 142 M 148 148 L 142 142" stroke="#c8d6c0" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- fractured fragments flying off -->
+  <polygon points="210,40 218,32 220,44 212,46" fill="#7dffb0" opacity="0.7"/>
+  <polygon points="235,55 244,50 242,60" fill="#ff5a1f" opacity="0.6"/>
+  <polygon points="42,200 34,208 48,212 46,204" fill="#c8d6c0" opacity="0.7"/>
+  <polygon points="20,140 12,148 22,150" fill="#7dffb0" opacity="0.5"/>
+  
+  <!-- small data dots -->
+  <circle cx="60" cy="70" r="2" fill="#7dffb0" opacity="0.8"/>
+  <circle cx="200" cy="200" r="2" fill="#ff5a1f" opacity="0.7"/>
+  <circle cx="50" cy="190" r="1.5" fill="#c8d6c0" opacity="0.6"/>
+  <circle cx="210" cy="80" r="1.5" fill="#7dffb0" opacity="0.6"/>
+  
+  <!-- HUD bracket corners -->
+  <path d="M 28 60 L 28 48 L 40 48" stroke="#c8d6c0" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 228 60 L 228 48 L 216 48" stroke="#c8d6c0" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 28 196 L 28 208 L 40 208" stroke="#c8d6c0" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 228 196 L 228 208 L 216 208" stroke="#c8d6c0" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- tiny text mark -->
+  <text x="128" y="248" text-anchor="middle" font-family="monospace" font-size="7" fill="#c8d6c0" opacity="0.5" letter-spacing="3">ARC-RAIDERS-ESP</text>
+</svg>
