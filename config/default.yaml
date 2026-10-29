@@ -1,0 +1,45 @@
+app:
+  name: arc-raiders-esp
+  version: 0.9.3-rc2
+  log_level: info
+  hotkey_toggle: "f8"
+  hotkey_panic: "end"
+
+process:
+  exe_names:
+    - "PioneerGame.exe"
+    - "ArcRaiders.exe"
+    - "ARC-Win64-Shipping.exe"
+  module: "PioneerGame-Win64-Shipping.exe"
+  poll_ms: 250
+
+render:
+  overlay_class: "ArcRaidersEspOverlay"
+  backend: "direct2d"
+  target_fps: 144
+  box_color: [255, 64, 64, 255]
+  skeleton_color: [64, 255, 128, 255]
+  loot_color: [255, 220, 0, 255]
+  arc_color: [200, 64, 255, 255]
+
+aimbot:
+  enabled: false
+  fov_radius: 180
+  smooth: 0.35
+  bone: "head"
+  visibility_check: true
+  team_filter: true
+  max_distance_m: 400
+
+esp:
+  players: true
+  loot: true
+  arcs: true
+  extract: true
+  show_distance: true
+  show_health: true
+  show_name: false
+
+memory:
+  read_batch: 32
+  cache_ttl_ms: 120
